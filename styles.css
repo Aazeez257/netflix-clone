@@ -1,0 +1,219 @@
+html {
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+  font-size: 62.5%;
+  font-family: serif !important;
+  overflow-x: hidden !important;
+}
+
+/* ******************************************
+NAVBAR SECTION
+****************************************** */
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+.nav-logo img {
+  width: 14rem;
+  height: 6rem;
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
+/* ******************************************
+NAVBAR SECTION
+****************************************** */
+
+/* ******************************************
+Story SECTION
+****************************************** */
+
+.bg-image {
+  height: 75rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("img/logo.jpg");
+  background-size: cover;
+  border-bottom: 7px solid rgb(65, 65, 65);
+}
+
+/* ******************************************
+Story SECTION
+****************************************** */
+.nav-link button {
+  font-size: 1.6rem !important;
+  background-color: red !important;
+  color: white;
+  padding: 0.4rem 1.7rem;
+  filter: brightness(100%) !important;
+}
+
+.story-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+.email-form {
+  display: flex;
+  justify-content: center;
+}
+.story-title {
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: center;
+}
+.story-subtitle {
+  font-size: 3rem;
+  padding: 2rem;
+}
+
+.email-title {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+.form-mail {
+  height: 4.8rem;
+  width: 50rem !important;
+  font-size: 2.4rem;
+  padding: 3.2rem 0;
+}
+.email-btn {
+  font-size: 2.4rem;
+  background-color: rgb(218, 3, 3);
+  color: white;
+}
+.email-btn:hover {
+  background-color: rgb(255, 0, 0) !important;
+  color: white;
+}
+.main-story {
+  margin: auto auto;
+  max-width: 95rem;
+  padding: 8rem 0;
+}
+/* ******************************************
+Story SECTION
+****************************************** */
+
+/* ******************************************
+TV SECTION
+****************************************** */
+.tv-section {
+  padding: 7rem 5%;
+  color: white;
+  /* border: 2px solid white; */
+}
+section {
+  border-bottom: 7px solid rgb(65, 65, 65) !important;
+}
+.tv-heading {
+  font-size: 5.2rem;
+  margin-bottom: 2.1rem;
+  color: white;
+}
+.tv-description {
+  font-size: 3rem;
+  font-weight: 500;
+}
+.tv-img {
+  max-width: 95%;
+}
+.tv-row {
+  align-items: center !important;
+}
+
+.tv-cont {
+  position: relative;
+}
+.tv1-img {
+  position: absolute;
+  width: 90%;
+  top: 50%;
+  left: 50%;
+}
+.text-area {
+  padding-left: 9%;
+}
+.faq-section h2 {
+  text-align: center;
+  color: white;
+}
+/* ******************************************
+tv SECTION
+****************************************** */
+
+/* ******************************************
+faq SECTION
+****************************************** */
+
+.my-container {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.my-container .tv-heading {
+  margin: 6rem;
+}
+.accordion-button {
+  font-size: 2.2rem;
+  background-color: rgb(59, 59, 59);
+  color: white;
+  padding: 2rem 1.4rem;
+}
+.accordion-body {
+  font-size: 2.2rem;
+}
+.accordion-collapse {
+  background-color: rgb(59, 59, 59);
+  color: white;
+}
+.ready {
+  color: white;
+  text-align: center;
+  font-size: 1.9rem;
+  margin-top: 5.4rem;
+  margin-bottom: 2rem;
+}
+.email-form-bot {
+  margin-bottom: 5.4rem;
+}
+/* ******************************************
+faq SECTION
+****************************************** */
+
+/* ******************************************
+footer SECTION
+****************************************** */
+
+.my-container-2 {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+.footer-txt {
+  font-size: 1.6rem;
+}
+li {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.4rem;
+}
+ul {
+  padding-left: 0;
+  line-height: 3;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+/* ******************************************
+footer SECTION
+****************************************** */
+.email-br {
+  display: none;
+}
